@@ -1,4 +1,2 @@
 # AutoClearLag
- AutoClearLag Nukkit Plugin
- 
- This plugin will reduce the lag on your server
+I ported this plugin to the latest PNX.
