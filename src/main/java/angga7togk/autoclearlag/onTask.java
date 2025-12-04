@@ -4,7 +4,7 @@ import cn.nukkit.Player;
 import cn.nukkit.Server;
 import cn.nukkit.entity.Entity;
 import cn.nukkit.entity.item.EntityItem;
-import cn.nukkit.entity.item.EntityXPOrb;
+import cn.nukkit.entity.item.EntityXpOrb;
 import cn.nukkit.entity.mob.EntityMob;
 import cn.nukkit.entity.passive.EntityAnimal;
 import cn.nukkit.level.Level;
@@ -49,7 +49,7 @@ public class onTask extends Task {
                             ignored.despawnFromAll();
                             cleared += 1;
                         }
-                    }else if (ignored instanceof EntityXPOrb){
+                    }else if (ignored instanceof EntityXpOrb){
                         if(this.plugin.cfg.getBoolean("cleared.xp")){
                             ignored.despawnFromAll();
                             cleared += 1;
