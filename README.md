@@ -1,7 +1,7 @@
 # AutoClearLag
 I ported this plugin to the latest PNX.
 # config.yml
-```yaml
+```yml
 # 1 = 1 Second
 interval: 120
 
