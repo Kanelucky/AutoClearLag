@@ -1,2 +1,31 @@
 # AutoClearLag
 I ported this plugin to the latest PNX.
+# config.yml
+```yaml
+# 1 = 1 Second
+interval: 120
+
+#prefix will be useful if using type 'message'
+prefix: "§6[AutoClearLag]"
+
+#Type Notification 'actionbar' / 'message'
+#Default Type Actionbar
+type: "actionbar"
+
+#false = tidak di clear
+#true = akan di clear
+cleared:
+  mob: true
+  animal: false
+  xp: true
+  item: true
+
+#broadcasts Message
+# use {COUNT} to display the number of entities that were successfully deleted
+# use {TIME} for the time to delete the entity
+message:
+  running: "§6clears the entity in {TIME} seconds!"
+  cleared: "§sSuccessfully cleared {COUNT} entity!"
+
+times: [60, 30, 10, 3, 2, 1]
+```
